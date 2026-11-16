@@ -1,0 +1,7 @@
+router:
+  quality_tolerance: 5          # points (0-100) below the best model that are still "acceptable"
+  thresholds: [0.55, 0.65, 0.75, 0.85]   # candidate confidence thresholds, chosen on validation data only
+  outer_folds: 5                # grouped CV for evaluation
+  inner_folds: 4                # grouped CV used to choose the threshold inside each training fold
+  seed: 42
+  human_validation_per_category: 3

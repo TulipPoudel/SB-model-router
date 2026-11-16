@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# NOTE: cache/benchmark.sqlite is intentionally NOT ignored, so reviewers can re-run analysis offline.
+# It contains model outputs only - never API keys.

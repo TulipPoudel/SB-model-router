@@ -1,0 +1,36 @@
+# Swap models here - no code change needed.
+# `tiers` must be ordered cheapest -> strongest. Escalation moves one step to the right.
+generation:
+  temperature: 0.0
+  max_tokens: 4096
+  prompt_version: v1
+
+tiers: [cheap, medium, strong]
+
+models:
+  cheap:
+    provider: groq
+    model_id: openai/gpt-oss-20b
+    min_interval_s: 3          # polite spacing between calls (free-tier rate limits)
+    extra: {reasoning_effort: medium}
+  medium:
+    provider: google
+    model_id: gemini-3.5-flash-lite
+    min_interval_s: 7
+    extra: {thinking_level: medium}
+  strong:
+    provider: groq
+    model_id: openai/gpt-oss-120b
+    min_interval_s: 3
+    extra: {reasoning_effort: medium}
+
+
+judge:
+  provider: google
+  model_id: gemini-3.1-flash-lite
+  api_key_env: JUDGE_API_KEY
+  min_interval_s: 7
+  temperature: 0.0
+  max_tokens: 8192
+  prompt_version: judge_v1
+  extra: {}

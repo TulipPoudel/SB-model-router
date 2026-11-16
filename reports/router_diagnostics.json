@@ -1,0 +1,23 @@
+{
+  "tolerance": 5,
+  "routing_accuracy_vs_best_value_label": 0.6,
+  "majority_class_baseline": 0.4166666666666667,
+  "pred_within_tol_of_best_pct": 71.66666666666667,
+  "pct_tasks_where_model_within_tol_of_strong": {
+    "cheap": 56.666666666666664,
+    "medium": 75.0,
+    "strong": 100.0
+  },
+  "label_distribution": {
+    "cheap": 25,
+    "strong": 23,
+    "medium": 12
+  },
+  "fallback_escalated_pct": 58.333333333333336,
+  "fallback_quality_gain": 0.01666666666666572,
+  "fallback_extra_cost_per_task_usd": -0.00010409208333333315,
+  "fallback_latency_increase_ms": -26.672585583643695,
+  "failures_ml": 10,
+  "failures_ml_fallback": 5,
+  "pricing_verified": true
+}

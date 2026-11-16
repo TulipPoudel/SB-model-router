@@ -1,0 +1,15 @@
+                              always_cheap  always_strong  rule_router  ml_router  ml_plus_fallback
+mean_quality                        89.883         94.067       94.167     93.800            93.817
+median_quality                      91.500         97.500      100.000     98.500           100.000
+cost_per_task_usd                    0.000          0.001        0.001      0.001             0.001
+total_cost_usd                       0.019          0.032        0.043      0.040             0.033
+mean_latency_ms                   1498.872       2118.517     1924.303   1921.268          1894.595
+median_latency_ms                 1474.044       1974.515     1727.817   1668.778          1702.600
+p95_latency_ms                    2588.796       3406.403     3562.208   3953.793          3358.784
+quality_failures                    26.000          0.000       10.000     10.000             5.000
+pct_cheap                          100.000          0.000       20.000     43.333             6.667
+pct_medium                           0.000          0.000       43.333     21.667            36.667
+pct_strong                           0.000        100.000       36.667     35.000            56.667
+cost_saving_vs_strongest_pct        41.406          0.000      -32.927    -24.002            -4.480
+quality_delta_vs_strongest          -4.183          0.000        0.100     -0.267            -0.250
+escalated_pct                          NaN            NaN          NaN        NaN            58.333

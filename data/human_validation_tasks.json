@@ -1,0 +1,21 @@
+{
+  "selected_at": "2026-11-15T22:44:15",
+  "seed": 42,
+  "task_ids": [
+    "DATA_005",
+    "DATA_009",
+    "DATA_004",
+    "EMAIL_001",
+    "EMAIL_008",
+    "EMAIL_009",
+    "MEET_003",
+    "MEET_006",
+    "MEET_012",
+    "RES_007",
+    "RES_003",
+    "RES_011",
+    "SLIDE_003",
+    "SLIDE_001",
+    "SLIDE_011"
+  ]
+}

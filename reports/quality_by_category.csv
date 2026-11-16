@@ -1,0 +1,6 @@
+category,cheap,medium,strong,best_tier
+data_extraction,88.66666666666667,90.08333333333333,89.0,medium
+email_draft,95.25,97.91666666666667,97.08333333333333,medium
+meeting_summary,91.5,91.16666666666667,97.41666666666667,strong
+research_brief,84.25,94.41666666666667,92.75,medium
+slide_outline,89.75,94.75,94.08333333333333,medium

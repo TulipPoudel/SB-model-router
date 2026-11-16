@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "CLI: run-benchmark --dry-run", "type": "debugpy", "request": "launch",
+      "module": "src.main", "args": ["run-benchmark", "--dry-run"], "cwd": "${workspaceFolder}", "justMyCode": true },
+    { "name": "CLI: evaluate", "type": "debugpy", "request": "launch",
+      "module": "src.main", "args": ["evaluate"], "cwd": "${workspaceFolder}", "justMyCode": true }
+  ]
+}
