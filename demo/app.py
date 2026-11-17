@@ -5,7 +5,7 @@ import streamlit as st
 from src.router.routing import route_and_run
 
 st.title("Smart Model Router (prototype)")
-text = st.text_area("Describe the task (paste the meeting/email/data too):", "Summarise this meeting and extract action items.", height=200)
+text = st.text_area("Describe the task (paste the meeting/email/data):", "Summarise this meeting and extract action items.", height=200)
 call = st.checkbox("Call the selected model (uses free-tier quota)", value=True)
 if st.button("Route"):
     try:

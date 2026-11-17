@@ -151,3 +151,13 @@ demo/        demo app
 ## Secrets
 
 No API keys are stored in this repo. Keep keys in `.env`, which is excluded by `.gitignore`.
+
+## Testing
+
+Run the unit tests (cache, cost calculation, data building and router logic, in `tests/`):
+
+```bash
+pytest -q
+```
+
+Last run: 12 passed in 0.59s. The tests do not call any model API.
